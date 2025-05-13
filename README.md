@@ -5,6 +5,7 @@ SQL Portfolio
 This repository contains SQL scripts completed during a business analytics course. Each script reflects a practical data task, using real campaign datasets to practice core skills like aggregation, filtering, and performance analysis.
 
 Files & Descriptions
+
 hw2.sql
 Aggregates Facebook Ads campaign data by date and campaign ID. Calculates total spend, impressions, clicks, conversions, and marketing performance metrics: CPC, CPM, CTR, ROMI.
 
@@ -13,6 +14,9 @@ Bonus task: Finds the top-performing campaign (by ROMI) among those with over 50
 
 HW 3.sql
 Combines Google and Facebook Ads data using a Common Table Expression (CTE). Tags each record with its media source, aggregates daily performance metrics, and prepares a unified dataset for reporting.
+
+hw4.sql
+Combines Facebook and Google Ads data using CTEs, merges campaign and adset names, and aggregates performance metrics by date, media source, campaign, and adset.
 
 Key Concepts Used
 WITH (CTEs)
